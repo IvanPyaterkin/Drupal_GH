@@ -1639,3 +1639,12 @@ div.admin-panel .description {
 #footer-wrapper .poll .bar .foreground {
   background-color: #ddd;
 }
+
+.view-detali-kursiv .views-field-field-logio {
+
+}
+
+.view-detali-kursiv .views-field-field-logio img {
+float:left;
+margin-right: 10px;
+}
