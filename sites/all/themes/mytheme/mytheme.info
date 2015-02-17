@@ -1,0 +1,31 @@
+name = mytheme
+description = mytheme for HeekHub course. Homework-3.
+package = Core
+version = VERSION
+core = 7.x
+engine = phptemplate
+
+stylesheets[screen][] = style.css
+
+
+settings[shortcut_module_link] = 1
+regions[content] = Content
+regions[content_top] = Content Top
+regions[content_rec] = Content Recomendation
+regions[content_news] = Content News
+regions[content_searh] = Content Searh
+regions[content_first] = First sidebar
+regions[content_footer1] = Footer One
+regions[content_footer2] = Footer Two
+regions[content_footer3] = Footer One
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+
+
+; Information added by Drupal.org packaging script on 2014-08-06
+version = "7.31"
+project = "drupal"
+datestamp = "1407346676"
+

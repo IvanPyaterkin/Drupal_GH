@@ -1,0 +1,33 @@
+<?php
+
+function block_weather_block_info() {
+	$blocks['block_weather'] = array(
+		'info' => "The weather block"
+	);
+	return $blocks;
+}
+
+function block_weather_block_view($delta = '') {
+	switch($delta){
+	case 'block_weather':
+		$block['content'] = block_function ();
+		break;
+	}
+	return $block;
+}
+
+function block_function(){
+
+	$output = theme('test_template', array('variable' => 'Petya'));
+	return $output;
+	
+}
+
+function block_weather_theme() {
+	return array(
+		'test_template' => array(
+			'template' => 'block_template',
+			'variables' => array('variable' => 'Vasya')
+		)
+	);
+}

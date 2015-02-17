@@ -1,0 +1,4 @@
+name = Block weather module
+description = Block weather module for drupal.
+core = 7.x
+files [] = block_weather.module
