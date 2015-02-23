@@ -1,7 +1,7 @@
 <body>
 <div id="wrap">
 	<div id="header">
-		<h1><a href="http://geekhub.ck.ua/">GeekHub</a></h1>
+		<h1><a href="http://drupal.home/">GeekHub</a></h1>
 		
         <?php if ($main_menu || $secondary_menu): ?>
     <nav id="navigation" class="menumain-nav <?php if (!empty($main_menu)) {print "with-primary";}
@@ -31,7 +31,7 @@
             </fieldset>
 
         </form>
-        <img src="GeekHub%20-%20%D0%BE%D1%82%D1%80%D0%B8%D0%BC%D0%B0%D0%B9%20%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%BD%D1%96%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%BD%D1%8F%20%D0%B2%20%D1%81%D1%84%D0%B5%D1%80%D1%96%20IT_files/splash.png" alt="splash">
+        <img src="/images/splash.png" alt="splash">
 	</div><!-- header -->
 	<div id="content">
         <div class="home">

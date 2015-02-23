@@ -267,8 +267,8 @@ body span.line
 #header .links {
 	overflow:hidden;
     float:right;
-    height:42px;
-	margin:35px -8px 0 0;
+    height:80px;
+	margin:35px -8px 0 80px;
 }
 #header .links li {
 	float:left;
@@ -1757,7 +1757,7 @@ float: left;
 }
 
 .view-detali-kursiv td {
-border-top: 1px solid #d2dce1;
+	border-top: 1px solid #d2dce1;
     cursor: pointer;
     float: left;
     padding: 24px 5px 24px 0;
@@ -1766,7 +1766,7 @@ border-top: 1px solid #d2dce1;
 
 
 .view-detali-kursiv .views-field-title a {
-color: #ea2778;
+	color: #ea2778;
     font-family: "Trebuchet MS";
     font-size: 27px;
     font-weight: normal;
@@ -1778,3 +1778,8 @@ display: block;
     float: left;
     margin: 0 15px 0 0;
 }
+
+#primary {
+	padding-right: 150px;
+}
+

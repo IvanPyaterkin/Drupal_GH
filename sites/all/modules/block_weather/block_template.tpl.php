@@ -1,3 +1,4 @@
 <div class="block_weather">
-	<h4>Hello <?php print $variable; ?>
+	<h3>Hello <?php print $gorod; ?><h3>
+			<?php print $temperatura; ?>	
 </div>

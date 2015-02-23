@@ -17,8 +17,27 @@ function block_weather_block_view($delta = '') {
 }
 
 function block_function(){
+	 $city_id=33487; // id города
+	 $data_file="http://export.yandex.ru/weather-ng/forecasts/$city_id.xml"; // адрес xml файла
 
-	$output = theme('test_template', array('variable' => 'Petya'));
+              $xml = simplexml_load_file($data_file); // раскладываем xml на массив
+
+ 
+    // выбираем требуемые параметры (город, температура, пиктограмма и тип погоды текстом (облачно, ясно)
+
+    $city=$xml->fact->station;
+    $temp=$xml->fact->temperature;
+    $pic=$xml->fact->image;
+    $type=$xml->fact->weather_type;
+
+    // Если значение температуры положительно, для наглядности добавляем "+"
+    if ($temp>0) {$temp='+'.$temp;}
+
+	$output = theme('test_template', array(
+				'gorod' => '<a href="http://pogoda.yandex.ru/'.$city_id.'/">'.$city.'</a>',
+				'temperatura' => '<img src="http://img.yandex.net/i/wiz'.$pic.'.png" alt="'.$type.'" title="'.$type.'">'.$temp.'<sup>o</sup>C'
+				)
+				);
 	return $output;
 	
 }
@@ -27,7 +46,7 @@ function block_weather_theme() {
 	return array(
 		'test_template' => array(
 			'template' => 'block_template',
-			'variables' => array('variable' => 'Vasya')
+			'variables' => array('gorod', 'temperatura')
 		)
 	);
 }

@@ -2,13 +2,13 @@
 <body class="inner">
 <div id="wrap">
 	<div id="header">
-		<h1><a href="http://geekhub.ck.ua/">GeekHub</a></h1>
+		<h1><a href="http://drupal.home/">GeekHub</a></h1>
         <ul class="nav">
-            <li><a href="http://geekhub.ck.ua/">Головна</a></li>
-            <li><a href="http://geekhub.ck.ua/about.html">Про GeekHub</a></li>
-            <li><a href="http://geekhub.ck.ua/team.html">Команда</a></li>
-            <li><a href="http://geekhub.ck.ua/faq.html">FAQ</a></li>
-            <li><a href="http://geekhub.ck.ua/contacts.html">Зв’язок</a></li>
+            <li><a href="http://drupal.home/">Головна</a></li>
+            <li><a href="http://drupal.home/node/1">Про GeekHub</a></li>
+            <li><a href="http://drupal.home/komanda">Команда</a></li>
+            <li><a href="http://drupal.home/node/59">FAQ</a></li>
+            <li><a href="http://drupal.home/node/60">Зв’язок</a></li>
         </ul>
         <ul class="links">
             <li class="fb"><a href="http://www.facebook.com/pages/GeekHub/158983477520070">facebook</a></li>
