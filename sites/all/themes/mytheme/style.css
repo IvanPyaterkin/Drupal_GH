@@ -50,10 +50,10 @@ a:hover                        { text-decoration:none; }
 /*-------------------------------------WRAPPER--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 body {
-    background:url("http://geekhub.ck.ua/images/header_bg.png") repeat-x top center #fff;
+    background:url("images/header_bg.png") repeat-x top center #fff;
 }
 body.inner {
-    background:url("http://geekhub.ck.ua/images/header_bg.png") repeat-x center -342px  #fff;
+    background:url("images/header_bg.png") repeat-x center -342px  #fff;
 }
 
 body span.line
@@ -104,7 +104,7 @@ body span.line
 	position:absolute; top:19px; left:0px;
 	width:167px;
 	height:71px;
-	background:url("http://geekhub.ck.ua/images/geekhub_logo.png") no-repeat;
+	background:url("images/geekhub_logo.png") no-repeat;
 }
 #header h1 a {
 	display:block;
@@ -127,7 +127,7 @@ body span.line
     color:#fff;
     text-align:center;
     font-size:28px;
-    background:url("http://geekhub.ck.ua/images/register-button.png") no-repeat;
+    background:url("images/register-button.png") no-repeat;
     text-indent: -700px;
 	z-index:2;
 }
@@ -180,7 +180,7 @@ body span.line
     position: absolute;
     width: 220px;
     height: 49px;
-    background: url("http://geekhub.ck.ua/images/ajax-loader.gif") center center no-repeat #000000;
+    background: url("images/ajax-loader.gif") center center no-repeat #000000;
 
       /* IE 8 */
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
@@ -218,7 +218,7 @@ body span.line
     height: 46px;
     border: 0;
     outline: 0;
-    background:url("http://geekhub.ck.ua/images/register_submit.png") center bottom no-repeat;
+    background:url("images/register_submit.png") center bottom no-repeat;
     color: #fff;
     text-align: center;
     font-family: "Trebuchet MS";
@@ -238,7 +238,7 @@ body span.line
 .inner #header .nav li.active a  {
     min-width: 46px;
     text-align: center;
-    background:url("http://geekhub.ck.ua/images/inner_active.png") center bottom no-repeat;
+    background:url("images/inner_active.png") center bottom no-repeat;
 }
 #header .nav {
 	overflow:visible;
@@ -264,44 +264,44 @@ body span.line
 #header .nav li a.active,#header .nav li.active a,#header .nav li a:hover {
     color:#e21d5d;
 }
-#header .links {
+#header .links2 {
 	overflow:hidden;
     float:right;
     height:80px;
 	margin:35px -8px 0 80px;
 }
-#header .links li {
+#header .links2 li {
 	float:left;
     width:24px;
     height:42px;
 	padding: 0 4px;
 }
-#header .links li a {
+#header .links2 li a {
 	display:block;
     width:24px;
     height:42px;
     color:#396375;
     text-indent:-400px;
-    background:url("http://geekhub.ck.ua/images/icons_social.png") no-repeat;
+    background:url("images/icons_social.png") no-repeat;
 }
-#header .links li.fb a {
+#header .links2 li.fb a {
     background-position:0 10px;
 }
-#header .links li.vk a {
+#header .links2 li.vk a {
     background-position:-32px 10px;
 }
-#header .links li.tw a {
+#header .links2 li.tw a {
     background-position:-64px 10px;
 }
-#header .links li.yb a {
+#header .links2 li.yb a {
     background-position:-96px 10px;
 }
-#header .links li.v a {
+#header .links2 li.v a {
     background-position:-128px 10px;
 }
 
-#header .links li a.active,#header .links li.active a,#header .links li a:hover {
-    background-image:url("http://geekhub.ck.ua/images/icons_social_hover.png");
+#header .links2 li a.active,#header .links2 li.active a,#header .links2 li a:hover {
+    background-image:url("images/icons_social_hover.png");
 }
 
 
@@ -356,7 +356,7 @@ body span.line
     height:221px;
     padding:13px 13px 66px;
     margin:42px 0 0 53px;
-    background:url("http://geekhub.ck.ua/images/header_video_bg.png") no-repeat;
+    background:url("images/header_video_bg.png") no-repeat;
 }
 #header #media_slider {
     position: relative;
@@ -440,7 +440,7 @@ body span.line
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------HOME--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
-#content .home h2 {
+#content .with-tabs {
     text-align:center;
     font-family: "Trebuchet MS";
     font-weight:normal;
@@ -545,14 +545,14 @@ body span.line
     display:block;
     text-indent:-200px;
     overflow:hidden;
-    background:url("http://geekhub.ck.ua/images/sponsors.png") no-repeat;
+    background:url("images/sponsors.png") no-repeat;
 }
 
 #content .home ul.social_share > li.sertificates_list h4 {
 	border:none;
 width:276px;
 height:214px;
-background:url("http://geekhub.ck.ua/images/banner.png") no-repeat;
+background:url("images/banner.png") no-repeat;
 }
 
 #content .home ul.social_share > li.sertificates_list {
@@ -815,7 +815,7 @@ text-indent:-999em;
     height:300px;
     float:left;
     padding:17px 17px 17px 16px;
-    background:url("http://geekhub.ck.ua/images/map.png") no-repeat;
+    background:url("images/map.png") no-repeat;
 }
 
 #content .contacts dl dt {
@@ -851,7 +851,7 @@ text-indent:-999em;
     display:block;
     text-indent:-200px;
     overflow:hidden;
-    background:url("http://geekhub.ck.ua/images/contact_links.png") no-repeat;
+    background:url("images/contact_links.png") no-repeat;
 }
 
 #content .contacts dl ul li.fb a {
@@ -1052,14 +1052,14 @@ text-indent:-999em;
 }
 
 #content .register .processing .buttons {
-    background: url("http://geekhub.ck.ua/./images/registration-form-loader.gif") 260px 46px no-repeat;
+    background: url("images/registration-form-loader.gif") 260px 46px no-repeat;
 }
 
 .register fieldset.registration-wrap ul.registration-form li input[type="submit"] {
 	width:217px;
 	height:46px;
 	border:none;
-	background:url("http://geekhub.ck.ua/images/register_submit.png") left top no-repeat;
+	background:url("images/register_submit.png") left top no-repeat;
 	font-size:27px;
 	color:#fff;
 }
@@ -1193,7 +1193,7 @@ text-indent:-999em;
 #content .details {
     overflow: hidden;
 }
-#content .details h2 {
+#content .details h1 {
     padding: 0 0 18px;
     color:#EA2778;
     font-family: "Trebuchet MS";
@@ -1272,7 +1272,7 @@ text-indent:-999em;
 #content .details .questions li {
     overflow:hidden;
     padding:0 0 20px 30px;
-    background: url("http://geekhub.ck.ua/images/question-li.png") no-repeat left top;
+    background: url("images/question-li.png") no-repeat left top;
 }
 
 #content .details .register {
@@ -1286,7 +1286,7 @@ text-indent:-999em;
     color:#fff;
     text-align:center;
     font-size:28px;
-    background:url("http://geekhub.ck.ua/images/register-button.png") no-repeat;
+    background:url("images/register-button.png") no-repeat;
     text-indent: 400px;
 	z-index:2;
 }
@@ -1734,27 +1734,9 @@ text-indent:-999em;
   100% {
     opacity: 0; } }
 	
-#header ul#primary li {
-float: left;
-    padding: 0 0 0 26px;
-}	
+	
 
-#header ul#primary li a {
-     background-image: none;
-    color: #e21d5d;
-    display: block;
-    font-family: "Trebuchet MS";
-    font-size: 14px;
-    font-weight: bold;
-    height: 16px;
-    padding: 14px 0 10px;
-    text-indent: 0;
-    text-transform: uppercase;
-}
 
-#navigation {
-  
-}
 
 .view-detali-kursiv td {
 	border-top: 1px solid #d2dce1;
@@ -1780,9 +1762,163 @@ display: block;
 }
 
 #primary {
-	padding-right: 150px;
+	padding-right: 0px;
 }
 
 .block_weather {
 	border: solid;
+}
+
+#header .links clearfix main-menu {
+    float: right;
+    height: 42px;
+    margin: 34px 0 31px;
+    overflow: visible;
+    width: 471px;
+}
+
+#header .menu-218 first active li {
+    float: left;
+    padding: 0 0 0 26px;
+}
+
+.details contextual-links-region .views-field views-field-title {
+ float: left;
+
+}
+
+ul#primary.links{
+    float: right;
+    height: 42px;
+    margin: 34px 0 31px;
+    overflow: visible;
+    width: 471px;
+}
+
+#header ul#primary.links li {
+    float: left;
+    padding: 0 0 0 26px;
+	
+}
+
+ul#primary.links  li a {
+    color: #4c7689;
+    display: block;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    font-weight: bold;
+    height: 16px;
+    padding: 14px 0 10px;
+    text-transform: uppercase;
+	
+}
+
+ul#primary.links  li a.active {
+    background: url("images/inner_active.png") no-repeat scroll center bottom rgba(0, 0, 0, 0) !important;
+    min-width: 46px;
+    text-align: center;
+	padding-bottom: 44px !important;
+	color: #e21d5d;
+}
+
+ul#primary.links li.menu-218 a.active {
+background: none !important;
+}
+
+
+
+.view-detali-kursiv td p {
+    color: #39525a;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 13px 10px 0 0;
+    overflow: hidden;
+}
+
+.view-detali-kursiv td .views-field-view-node  a{ 
+color: #ea2678;
+    display: block;
+    padding: 10px 0 0 115px;
+    text-decoration: underline;
+}
+
+.content .field-name-field-image {
+float: left;
+margin: 0 28px 0 0;  
+}
+
+.view-komanda ul li.views-row-even {
+min-height: 180px;
+}
+
+.view-komanda ul li.views-row-even .imyaopit {
+    color: #ea2778;
+    float: right;
+    font-family: "Trebuchet MS";
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 29px;
+    padding: 37px 0 7px;
+    width: 185px;
+}
+
+.view-komanda ul li.views-row-even .views-field-field-opit-raboti {
+    color: #f3753e;
+    display: block;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 16px;
+    padding-top: 5px;
+}
+
+.view-komanda ul li.views-row-even .views-field-field-foto-prepodavatel img {
+    display: block;
+    float: right;
+    margin: 0 21px;
+}
+
+.view-komanda ul li.views-row-even p {
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 40px 0 0;
+    text-align: right;
+}
+
+
+.view-komanda ul li.views-row-odd {
+text-align: right;
+min-height: 180px;
+}
+
+.view-komanda ul li.views-row-odd .views-field-title span {
+    float: left;
+	 color: #ea2778;
+    font-family: "Trebuchet MS";
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 29px;
+    padding: 37px 0 7px;
+    width: 185px;
+}
+
+.view-komanda ul li.views-row-odd .views-field-field-foto-prepodavatel img {
+    display: block;
+    float: left;
+	margin: 0 21px;
+}
+
+.view-komanda ul li.views-row-odd .views-field-field-opit-raboti {
+    color: #f3753e;
+    display: block;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 16px;
+	display: block;
+}
+
+.views-row-odd .imyaopit {
+ float: left;
 }

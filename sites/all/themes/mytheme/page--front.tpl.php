@@ -13,7 +13,7 @@
     </nav> <!-- /navigation -->
   <?php endif; ?>
 
-        <ul class="links">
+        <ul class="links2">
             <li class="fb"><a href="http://www.facebook.com/pages/GeekHub/158983477520070">facebook</a></li>
             <li class="vk"><a href="http://vkontakte.ru/geekhub">Вконтакте</a></li>
             <li class="tw"><a href="http://twitter.com/#%21/geek_hub">twitter</a></li>
@@ -31,7 +31,7 @@
             </fieldset>
 
         </form>
-        <img src="/images/splash.png" alt="splash">
+        <img alt="splash" src="<?php print base_path() . path_to_theme(); ?>/images/splash.png">
 	</div><!-- header -->
 	<div id="content">
         <div class="home">
